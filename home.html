@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center bg-gray-100 p-1.5">
+    <div class=" bg-white p-6 rounded-lg shadow-lg">
+        <div class="flex items-center mb-4">
+            <img src="/src/profile_pic.png" alt="Profile" class="w-12 h-12 rounded-full mr-3">
+            <div>
+                <h2 class="text-lg font-semibold">Welcome back!</h2>
+                <p class="text-gray-500">Your wellness journey</p>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 p-4 rounded-lg mb-4 text-center">
+
+            <div class="flex">
+                <img src="/src/running.png" alt="Exercise" class="w-16 h-16 mx-auto mb-2">
+                <div class="inline mt-2">
+                    <p class="text-sm">Morning exercise routine</p>
+                    <p class="text-xl font-bold ">9.98 km</p>
+                </div>
+            </div>
+            <div class="flex justify-center mt-3">
+                <div class="flex mx-auto">
+                    <div>
+                        <p class="text-xs">Duration</p>
+                        <h3 class="font-bold">Achivemen</h3>
+                    </div>
+                    <div class="mx-2 px-2 border-x-2 border-black">
+                        <p class="text-xs">Altitude climb</p>
+                        <h3 class="font-bold">126m</h3>
+                    </div>
+                    <div>
+                        <p class="text-xs">Heart Health</p>
+                        <h3 class="font-bold">Good</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-lg font-semibold mb-2">Your schedule for</h3>
+        <div class="space-y-3">
+            <div class="flex items-center justify-between p-3 border rounded-lg">
+                <div class="flex items-center">
+                    <img src="/src/icon_1.png" alt="Activity" class="w-6 h-6 mr-3">
+                    <p>Aqua fitness class</p>
+                </div>
+                <p class="text-gray-500">Scheduled activity</p>
+            </div>
+            <div class="flex items-center justify-between p-3 border rounded-lg">
+                <div class="flex items-center">
+                    <img src="/src/icon2.png" alt="Activity" class="w-6 h-6 mr-3">
+                    <p>Racket sport session</p>
+                </div>
+                <p class="text-gray-500">Half an hour</p>
+            </div>
+            <div class="flex items-center justify-between p-3 border rounded-lg">
+                <div class="flex items-center">
+                    <img src="/src/icon3.png" class="w-6 h-6 mr-3">
+                    <p>Physical therapy</p>
+                </div>
+                <p class="text-gray-500">Workout duration</p>
+            </div>
+        </div>
+
+        <a href="/search.html"><button class="w-full bg-blue-500 text-white p-2 rounded mt-4">New articles</button></a>
+
+        <h3 class="text-lg font-semibold mt-6 mb-2">Friends activities</h3>
+        <div class="space-y-3">
+            <div class="flex items-center p-3 border rounded-lg">
+                <img src="/src/friend1.png" alt="Friend" class="w-10 h-10 rounded-full mr-3">
+                <p>Morning workout routine - Challenge completed</p>
+            </div>
+            <div class="flex items-center p-3 border rounded-lg">
+                <img src="/src/friend2.png" alt="Friend" class="w-10 h-10 rounded-full mr-3">
+                <p>Mindful meditation session - Mind body practice</p>
+            </div>
+        </div>
+    </div>
+    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-300">
+        <div class="flex justify-around py-4">
+            <a href="home.html" class="text-3xl">🏠</a>
+            <a href="workout.html" class="text-2xl text-black">👤</a>
+        </div>
+    </div>
+</body>
+
+</html>
